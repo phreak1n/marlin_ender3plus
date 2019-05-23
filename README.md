@@ -1,6 +1,6 @@
 # Marlin 3D Printer Firmware
 
-Marlin Firmware for a modified Crealit Ender 3 now running a Ramp 1.4 Board and different extruder and hotend.
+Marlin Firmware for a modified Crealit Ender 3 now running a Ramps 1.4 Board and different extruder and hotend.
 
 ## Documentation
 
@@ -90,9 +90,3 @@ Marlin is published under the [GPL license](https://github.com/COPYING.md) becau
 
 While we can't prevent the use of this code in products (3D printers, CNC, etc.) that are closed source or crippled by a patent, we would prefer that you choose another firmware or, better yet, make your own.
 
----
-
-<!-- [![Coverity Scan Build Status](https://scan.coverity.com/projects/2224/badge.svg)](https://scan.coverity.com/projects/2224) -->
-- [![Travis Build Status](https://travis-ci.org/MarlinFirmware/Marlin.svg)](https://travis-ci.org/MarlinFirmware/Marlin)
-- [![Flattr Scott Lahteine](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=thinkhead&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software) - Flattr Scott Lahteine
-- [![Flattr Erik van der Zalm](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software) - Flattr Erik van der Zalm

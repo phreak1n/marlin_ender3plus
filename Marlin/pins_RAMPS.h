@@ -222,17 +222,18 @@
 //
 // Heaters / Fans
 //
+// Switched D9 and D8 pin because the mosfet of d8 is defect and always on
 #ifndef MOSFET_D_PIN
-  #define MOSFET_D_PIN     -1
+  #define MOSFET_D_PIN     -1   //Standart -1
 #endif
 #ifndef RAMPS_D8_PIN
-  #define RAMPS_D8_PIN      8
+  #define RAMPS_D8_PIN      9   //Standart 8
 #endif
 #ifndef RAMPS_D9_PIN
-  #define RAMPS_D9_PIN      9
+  #define RAMPS_D9_PIN      8   //Standart 9
 #endif
 #ifndef RAMPS_D10_PIN
-  #define RAMPS_D10_PIN    10
+  #define RAMPS_D10_PIN    10   //Standart 10
 #endif
 
 #define HEATER_0_PIN       RAMPS_D10_PIN
