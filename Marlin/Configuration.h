@@ -379,10 +379,14 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
+  #define DEFAULT_Kp 14.1
+  #define DEFAULT_Ki 0.85
+  #define DEFAULT_Kd 58.62
+
   // Ultimaker
-  #define DEFAULT_Kp 22.2
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 114
+  //#define DEFAULT_Kp 22.2
+  //#define DEFAULT_Ki 1.08
+  //#define DEFAULT_Kd 114
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -608,7 +612,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 96 } // maesured 81, 82, 400, 96
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 192 } // maesured 81, 82, 400, 96
 
 /**
  * Default Max Feed Rate (mm/s)
